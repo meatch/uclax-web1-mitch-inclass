@@ -11,7 +11,7 @@ const StaffMember = ({member}) => {
 
     return (
         <StaffMemberStyled className='StaffMember'>
-            <img src={ member.image } /> 
+            <img src={ member.image } alt={ member.name } /> 
             <h3>{ member.name }</h3>
 
             <Lightbox />
